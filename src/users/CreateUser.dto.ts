@@ -1,6 +1,12 @@
 export class CreateUserDto {
  username: string; 
  password: string; 
- confirmPass: string
+ 
+
+}
+
+export interface Updateuserparam {
+    username: string;
+    password: string;  
 
 }
